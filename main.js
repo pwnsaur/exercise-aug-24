@@ -6,7 +6,7 @@ const function1 = (a, b) => a + b;
 
 const function2 = (string) => {
   if (string.length < 3) return 'Sorry, string is too short';
-  string.slice(-3);
+  return string.slice(-3);
 };
 
 // 3. Write a function that takes a number (a) as argument Split a into its individual digits and return them in an array.
