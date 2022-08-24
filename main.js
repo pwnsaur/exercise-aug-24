@@ -11,7 +11,11 @@ const function2 = (string) => {
 
 // 3. Write a function that takes a number (a) as argument Split a into its individual digits and return them in an array.
 
-const function3 = (a) => a.toString().split('');
+const function3 = (a) =>
+  a
+    .toString()
+    .split('')
+    .map((item) => parseInt(item));
 
 // 4. Write a function that takes an array (a) and a number (n) as arguments It should return the last n elements of a
 
