@@ -31,4 +31,4 @@ const function5 = (array1, array2) =>
 
 // 6. Write a function that takes an object (a) and a string (b) as argument  Return true if the object has a property with key 'b' Return false otherwise
 
-onst function6 = (a, b) => Object.keys(a).includes(b) || false;
+const function6 = (a, b) => Object.keys(a).includes(b) || false;
