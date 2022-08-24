@@ -4,7 +4,10 @@ const function1 = (a, b) => a + b;
 
 // 2. Write a function that takes a string as an argument. Extract the last 3 characters from the string. Return the result
 
-const function2 = (string) => string.slice(-3);
+const function2 = (string) => {
+  if (string.length < 3) return 'Sorry, string is too short';
+  string.slice(-3);
+};
 
 // 3. Write a function that takes a number (a) as argument Split a into its individual digits and return them in an array.
 
